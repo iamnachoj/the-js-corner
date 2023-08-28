@@ -27,7 +27,7 @@ For a sample application, see the [live example](https://angular.io/generated/li
 
 ## **Modules**
 
-Angular *NgModules* differ from and complement JavaScript (ES2015) modules. An NgModule declares a compilation context for a set of components that is dedicated to an application domain, a workflow, or a closely related set of capabilities. An NgModule can associate its components with related code, such as services, to form functional units.
+*NgModules* differ from and complement JavaScript (ES2015) modules. An NgModule declares a compilation context for a set of components that is dedicated to an application domain, a workflow, or a closely related set of capabilities. An NgModule can associate its components with related code, such as services, to form functional units.
 
 Every Angular application has a *root module*, conventionally named `AppModule`, which provides the bootstrap mechanism that launches the application. An application typically contains many other functional modules.
 
