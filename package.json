@@ -21,7 +21,7 @@
     "@types/react": "^18.2.21",
     "encoding": "^0.1.13",
     "fibers": "^5.0.3",
-    "node-sass": "^9.0.0",
+    "node-sass": "^5.0.0",
     "sass": "^1.66.1",
     "webpack": "^5.88.2"
   }
