@@ -17,7 +17,7 @@ function MainNavigation() {
             <Link href='/posts'>Posts</Link>
           </li>
           <li>
-            <Link href='/contact'>Contact</Link>
+            <a target="_blank" href='https://www.linkedin.com/in/ignacio-jimenezjimenez/'>Contact</a>
           </li>
         </ul>
       </nav>
