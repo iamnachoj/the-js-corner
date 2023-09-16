@@ -63,3 +63,7 @@ button {
   font: inherit;
   cursor: pointer;
 }
+
+p {
+  line-height: 1.5em;
+}

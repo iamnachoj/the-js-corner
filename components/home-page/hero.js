@@ -7,16 +7,18 @@ function Hero() {
     <section className={classes.hero}>
       <div className={classes.image}>
         <Image
-          src='/images/site/me.png'
+          src='/images/site/js-logo.png'
           alt='An image showing Max'
           width={300}
           height={300}
         />
       </div>
-      <h1>Hi, I'm Ignacio</h1>
+      <h1>The JavasCript Corner</h1>
       <p>
-        Welcome to the JS corner! here, I blog about JavaScript, especially frontend frameworks like
-        Angular or React, but I also solve code challenges, and talk about the web.
+          Welcome to the premier blog dedicated to JavaScript! Here, I share insights and expertise on
+          a wide range of tricks and topics I've acquired throughout my extensive experience with this
+          formidable language. My aim is to assist others in their journey and prevent unnecessary
+          redundancy. Stay tuned for more valuable content!
       </p>
     </section>
   );
