@@ -12,7 +12,7 @@ function HomePage(props) {
         <title>JS Corner</title>
         <meta
           name='description'
-          content='I post about programming and web development.'
+          content='I post about JavaScript and web development.'
         />
       </Head>
       <Hero />
