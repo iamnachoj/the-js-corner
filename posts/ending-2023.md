@@ -1,7 +1,7 @@
 ---
 title: 'ending 2023'
 date: '2023-12-29'
-image: what-is-angularjs.png
+image: new-years-resolution.png
 excerpt: a small recap on how my year has been
 isFeatured: false
 ---
