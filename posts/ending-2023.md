@@ -1,10 +1,11 @@
 ---
-title: 'ending 2023'
-date: '2023-12-29'
+title: Ending 2023
+excerpt: A small recap on how my year has been
 image: new-years-resolution.png
-excerpt: a small recap on how my year has been
 isFeatured: false
+date: '2023-12-29'
 ---
+
 Whoa, what a ride this year has been in the programming realm! Back in January, I strutted into the coding scene with less than 5 months of experience, thinking I was the next coding prodigy. Spoiler alert: I laugh at that now.
 
 Reality hit hard. Bugs, tasks I couldn't crack solo, uncomfortable moments admitting I needed help—welcome to the rollercoaster of learning. I get the imposter syndrome struggle, but guess what? I've transformed into a real junior developer from the chaotic newbie I was.
