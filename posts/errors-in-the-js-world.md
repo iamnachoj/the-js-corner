@@ -1,6 +1,6 @@
 ---
 title: Errors in the JS world
-excerpt: Lots of errors, all with their funny naming: where to start?
+excerpt: Lots of errors, all with their funny naming, where to start?
 image: errors-on-beach.png
 isFeatured: false
 date: '2023-12-12'
