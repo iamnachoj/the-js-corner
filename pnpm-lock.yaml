@@ -11,6 +11,30 @@ dependencies:
   '@ampproject/toolbox-optimizer':
     specifier: ^2.9.0
     version: 2.9.0(encoding@0.1.13)
+  '@ampproject/toolbox-runtime-version':
+    specifier: ^2.9.0
+    version: 2.9.0(encoding@0.1.13)
+  '@ampproject/toolbox-script-csp':
+    specifier: ^2.9.0
+    version: 2.9.0
+  '@ampproject/toolbox-validator-rules':
+    specifier: ^2.9.0
+    version: 2.9.0(encoding@0.1.13)
+  abort-controller:
+    specifier: ^3.0.0
+    version: 3.0.0
+  cross-fetch:
+    specifier: ^4.0.0
+    version: 4.0.0(encoding@0.1.13)
+  cssnano-simple:
+    specifier: ^3.0.2
+    version: 3.0.2(postcss@8.4.33)
+  dom-serializer:
+    specifier: ^2.0.0
+    version: 2.0.0
+  domhandler:
+    specifier: ^5.0.3
+    version: 5.0.3
   gray-matter:
     specifier: ^4.0.2
     version: 4.0.3
@@ -1136,6 +1160,14 @@ packages:
       - encoding
     dev: false
 
+  /cross-fetch@4.0.0(encoding@0.1.13):
+    resolution: {integrity: sha512-e4a5N8lVvuLgAWgnCrLr2PP0YyDOTHa9H/Rj54dirp61qXnNq46m82bRhNqIA5VccJtWBvPTFRV3TtvHUKPB1g==}
+    dependencies:
+      node-fetch: 2.7.0(encoding@0.1.13)
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
   /cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
@@ -1187,6 +1219,15 @@ packages:
       postcss: 8.2.13
     dev: false
 
+  /cssnano-preset-simple@4.0.0(postcss@8.4.33):
+    resolution: {integrity: sha512-hSqVEM4JOnp5dwAm8LNjkN8wlqZ0zbvbtUbh3bQqfZFIqCNZXoU2xpM/YC01k4TcJJHJemThkbNDaurZTgj5pw==}
+    peerDependencies:
+      postcss: ^8.2.15
+    dependencies:
+      caniuse-lite: 1.0.30001576
+      postcss: 8.4.33
+    dev: false
+
   /cssnano-simple@1.2.1:
     resolution: {integrity: sha512-9vOyjw8Dj/T12kIOnXPZ5VnEIo6F3YMaIn0wqJXmn277R58cWpI3AvtdlCBtohX7VAUNYcyk2d0dKcXXkb5I6Q==}
     dependencies:
@@ -1208,6 +1249,18 @@ packages:
     dependencies:
       cssnano-preset-simple: 2.0.0(postcss@8.2.13)
       postcss: 8.2.13
+    dev: false
+
+  /cssnano-simple@3.0.2(postcss@8.4.33):
+    resolution: {integrity: sha512-16jgh/dmhAhA529g2+s6vlxbIDvG9r/sT8y50y63ZBIXVxPqG1KpL3pjNOu9a9HWGJOGeG6j7TqexpHOvRGMkw==}
+    peerDependencies:
+      postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
+    dependencies:
+      cssnano-preset-simple: 4.0.0(postcss@8.4.33)
+      postcss: 8.4.33
     dev: false
 
   /csstype@3.1.3:
@@ -1373,7 +1426,7 @@ packages:
   /domutils@2.4.2:
     resolution: {integrity: sha512-NKbgaM8ZJOecTZsIzW5gSuplsX2IWW2mIK7xVr8hTQF2v1CJWTmLZ1HOCh5sH+IzVPAGE5IucooOkvwBRAdowA==}
     dependencies:
-      dom-serializer: 1.1.0
+      dom-serializer: 1.3.2
       domelementtype: 2.3.0
       domhandler: 3.3.0
     dev: false
@@ -2639,6 +2692,19 @@ packages:
       whatwg-url: 5.0.0
     dev: false
 
+  /node-fetch@2.7.0(encoding@0.1.13):
+    resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
+    engines: {node: 4.x || >=6.0.0}
+    peerDependencies:
+      encoding: ^0.1.0
+    peerDependenciesMeta:
+      encoding:
+        optional: true
+    dependencies:
+      encoding: 0.1.13
+      whatwg-url: 5.0.0
+    dev: false
+
   /node-gyp@8.4.1:
     resolution: {integrity: sha512-olTJRgUtAb/hOXG0E93wZDs5YiJlgbXxTwQAFHyNlRsXQnYzUaF2aGgujZbw+hR8aF4ZG/rST57bWMWD16jr9w==}
     engines: {node: '>= 10.12.0'}
@@ -2999,6 +3065,15 @@ packages:
       colorette: 1.4.0
       nanoid: 3.3.7
       source-map: 0.6.1
+    dev: false
+
+  /postcss@8.4.33:
+    resolution: {integrity: sha512-Kkpbhhdjw2qQs2O2DGX+8m5OVqEcbB9HRBvuYM9pgrjEFUg30A9LmXNlTAUj4S9kgtGyrMbTzVjH7E+s5Re2yg==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
     dev: false
 
   /prebuild-install@6.1.4:
