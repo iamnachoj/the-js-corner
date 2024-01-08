@@ -3,7 +3,7 @@ title: 'Angular: What is it, really?'
 date: '2023-8-27'
 image: what-is-angularjs.png
 excerpt: In this post, we take a close look at Angular—exploring its strengths, why it's so well-liked, and even how it stacks up against trendy new frameworks.
-isFeatured: true
+isFeatured: false
 ---
 # Intro to **Angular concepts**
 

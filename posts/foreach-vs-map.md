@@ -2,7 +2,7 @@
 title: ForEach() vs Map()
 excerpt: Ever found yourself in the JavaScript jungle, wondering about the difference between forEach() and map()?
 image: letters-background.png
-isFeatured: false
+isFeatured: true
 date: '2023-12-19'
 ---
 
