@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@ampproject/toolbox-core':
+    specifier: ^2.9.0
+    version: 2.9.0(encoding@0.1.13)
   '@ampproject/toolbox-optimizer':
     specifier: ^2.9.0
     version: 2.9.0(encoding@0.1.13)

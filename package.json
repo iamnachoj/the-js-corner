@@ -9,6 +9,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@ampproject/toolbox-core": "^2.9.0",
     "@ampproject/toolbox-optimizer": "^2.9.0",
     "gray-matter": "^4.0.2",
     "mongodb": "^3.6.4",
