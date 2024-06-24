@@ -9,10 +9,11 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>JS Corner</title>
+        <title>JS Jungle</title>
         <meta
           name='description'
-          content='I post about JavaScript and web development.'
+          content='I post about JavaScript and web development. Here you can learn all there is about JavaScript, and
+          interesting learnings about web development'
         />
       </Head>
       <Hero />
