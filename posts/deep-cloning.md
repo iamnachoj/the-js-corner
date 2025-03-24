@@ -1,6 +1,6 @@
 ---
 title: 'Unraveling the mysteries of deep cloning in JavaScript! 🧩'
-date: '2024-1-8'
+date: '2024-01-08'
 image: deep-cloning.png
 excerpt: Welcome to the world of deep cloning – a game-changer in the coding realm!
 isFeatured: true

@@ -3,7 +3,7 @@ title: 'Closures Explained Like You’re Five'
 excerpt: A beginner-friendly explanation of JavaScript closures with simple examples.
 image: Closures-explained-like-you-are-five.webp
 isFeatured: true
-date: '2025-4-12'
+date: '2024-12-12'
 ---
 
 # Closures Explained Like You’re Five

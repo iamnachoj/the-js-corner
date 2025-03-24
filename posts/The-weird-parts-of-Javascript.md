@@ -3,7 +3,7 @@ title: 'The Weird Parts of JavaScript: Hoisting, Coercion, and More'
 excerpt: hoisting, type coercion, and some other odd behaviors
 image: The-weird-parts-of-Javascript.webp
 isFeatured: true
-date: '2025-3-25'
+date: '2024-06-25'
 ---
 # Hoisting, Coercion, and More
 
