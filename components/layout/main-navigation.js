@@ -7,9 +7,7 @@ function MainNavigation() {
   return (
     <header className={classes.header}>
       <Link href='/'>
-        <a>
           <Logo />
-        </a>
       </Link>
       <nav>
         <ul>
@@ -17,7 +15,7 @@ function MainNavigation() {
             <Link href='/posts'>Posts</Link>
           </li>
           <li>
-            <a target="_blank" href='https://www.linkedin.com/in/ignacio-jimenezjimenez/'>Contact</a>
+            <Link target="_blank" href='https://www.linkedin.com/in/ignacio-jimenezjimenez/'>Contact</Link>
           </li>
         </ul>
       </nav>
