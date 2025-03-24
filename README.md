@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, make sure you use Node version 16. Run `npm install --force` to avoid node-sass issue, and then the development server:
 
 ```bash
 npm run dev
@@ -27,8 +27,16 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+Create a new Post
+---
+To create a new post, you need to go to posts, create a markdown file (`md`) with the name of the new article's name, and then fill in the next template:
+```angular2html
+title:title
+excerpt: excerpt
+image: ajpegimage.jpeg
+isFeatured: boolean
+date: 'YYYY-MM-DD'
+```
+Then, the markdown text.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For the image, it'd be necessary to add it in `public/images/posts` matching the name of the file. You can add extra images in the same folder.
