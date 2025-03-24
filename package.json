@@ -30,8 +30,7 @@
   "devDependencies": {
     "@types/react": "^18.2.21",
     "encoding": "^0.1.13",
-    "node-sass": "^9.0.0",
-    "sass": "^1.67.0",
+    "sass": "^1.86.0",
     "webpack": "^5.88.2"
   },
   "packageManager": "pnpm@8.15.3+sha512.dd85cd6eca6417c6f73db32ba1eb4767ffb4cba4f5bf0727846722c92b6b9e56a2cc218b11385bbc2b21f18a16a67da77aceae9b61a0f56a1643b25e1fb6a605"
