@@ -3,7 +3,7 @@ title: 'Unraveling the mysteries of deep cloning in JavaScript! 🧩'
 date: '2024-01-08'
 image: deep-cloning.png
 excerpt: Welcome to the world of deep cloning – a game-changer in the coding realm!
-isFeatured: true
+isFeatured: false
 ---
 Ever had those moments where a shallow copy just doesn't cut it? Welcome to the world of deep cloning – a game-changer in the coding realm!
 

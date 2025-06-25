@@ -3,7 +3,7 @@ title: 'Redux Toolkit: an example'
 date: '2025-6-25'
 image: reduxtoolkit.png
 excerpt: In this post, I disseminate Redux Toolkit, providing a quick example to understand all the basics and brush up on concepts.
-isFeatured: false
+isFeatured: true
 ---
 
 # 🧠 Redux Toolkit – A Real-World Example: User Authentication
@@ -13,10 +13,9 @@ isFeatured: false
 For that reason I wanted to create this article that works as a refresher summary where I define every file and the purpose by means of examples.
 
 ---
---
 
 ## 🧩 Core Concepts
-
+```
 | Concept             | Purpose                                                              |
 |---------------------|-----------------------------------------------------------------------|
 | `configureStore`    | Creates the Redux store with sensible defaults                        |
@@ -24,7 +23,7 @@ For that reason I wanted to create this article that works as a refresher summar
 | `createAsyncThunk`  | Manages async logic and auto-generates pending/fulfilled/rejected     |
 | `useDispatch`       | React hook to dispatch actions                                        |
 | `useSelector`       | React hook to access store state                                      |
-
+```
 ---
 
 ## 🧪 Real-World Use Case: User Authentication
