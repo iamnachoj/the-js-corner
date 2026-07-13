@@ -40,3 +40,40 @@ date: 'YYYY-MM-DD'
 Then, the markdown text.
 
 For the image, it'd be necessary to add it in `public/images/posts` matching the name of the file. You can add extra images in the same folder.
+
+Admin UI (private) to create posts
+---
+You can now create posts from the UI using a private route and password.
+
+1. Create a `.env.local` file with:
+
+```bash
+ADMIN_PASSWORD="your-strong-password"
+ADMIN_SESSION_SECRET="a-long-random-secret"
+```
+
+2. Start the app and open:
+
+```text
+/admin/login
+```
+
+3. Log in and go to:
+
+```text
+/admin/new-post
+```
+
+4. Submit the form.
+
+What it does:
+
+- Creates `posts/<slug>.md` with frontmatter + markdown body.
+- Creates folder `public/images/posts/<slug>/` so you can quickly drop your cover image there.
+- If you select an image file in the admin form, it uploads and saves it automatically in `public/images/posts/<slug>/`.
+
+Important notes:
+
+- This approach keeps your current file-based setup (simple and fast).
+- It only works as expected on a server where the filesystem is writable.
+- If you deploy to read-only/serverless environments, this writing approach will not persist files.
