@@ -1,8 +1,8 @@
 ---
 title: "The Virtual DOM"
 date: "2026-07-13"
-image: "virtualdom"
-excerpt: "The Virtual DOM"
+image: "the-virtual-dom.png"
+excerpt: "The Virtual DOM: that odd thing that always comes up in interviews and nobody really get to fully understand it until it clicks!"
 isFeatured: false
 ---
 
