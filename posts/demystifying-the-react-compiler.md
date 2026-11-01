@@ -1,7 +1,7 @@
 ---
 title: "Demystifying the React Compiler"
 date: "2026-10-31"
-image: "demystifying-the-react-compiler"
+image: "demystifying-the-react-compiler.png"
 excerpt: "Web browsers don’t understand React—only JavaScript. Discover how the new React Compiler moves optimization out of the browser and into your build system, automating performance by eliminating manual hooks."
 isFeatured: false
 ---
