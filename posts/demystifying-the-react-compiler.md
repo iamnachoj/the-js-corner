@@ -85,7 +85,7 @@ It does not ship to the browser, and it doesn't increase your website's final bu
 
 ## Part 3: How the React Compiler Optimizes Memoization
 
-Before the compiler, developers had to manually optimize performance using hooks like `useMemo` and `useCallback`. This required declaring dependency arrays to tell React when to recalculate a value or recreate a function. 
+Before the compiler, developers had to manually optimize performance using hooks like `useMemo` to cache values, and `useCallback` to cache a function, all to skip memory work on re-renders.
 
 Manual memoization introduced massive cognitive overhead. If you forgot a dependency, you introduced bugs. If you memoized everything blindly, you added unnecessary memory overhead to evaluate dependency arrays on every single render.
 
