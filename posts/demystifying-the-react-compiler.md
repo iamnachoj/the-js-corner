@@ -27,7 +27,7 @@ When you run `npm install react react-dom`, you aren't installing anything into 
 
 When you build your application for production (`npm run build`), a tool called a **Bundler** (like Vite or Webpack) steps in. It takes your application code (your todo lists, buttons, and logic), grabs the React source code from `node_modules`, and blends them together into a giant, single file of raw JavaScript. 
 
-When a user visits your website, your server sends them this compiled JavaScript file. **React is downloaded by the browser over the network just like an image or a text file.** Once downloaded, React executes entirely in the browser's memory, taking control of a blank HTML element (usually `<div id="root"></div>`) to draw your application.
+When a user visits your website, their browser requests the compiled JavaScript file from your server, which already contains React's code. In other words, React isn't independently looked up or downloaded from a separate location: it's simply part of the JavaScript file your server delivers over HTTP, just like any other static asset. Once downloaded, the browser executes that JavaScript in its own memory, and React takes responsibility for managing the part of the HTML document you've designated as its root (usually `<div id="root"></div>`) and rendering your application inside it.
 
 ### 2. The Virtual DOM is Just a JavaScript Object
 Terms like "Virtual DOM" sound incredibly complex, but the reality is beautifully simple. The Virtual DOM is not a mystical engine; it is just a plain **JavaScript Object** (a JSON-like tree structure) that describes what the screen *should* look like.
@@ -57,13 +57,13 @@ Historically, React has been a **Runtime Library**. This means all the intellige
 
 With the advent of the **React Compiler**, the React architecture has split into two distinct worlds:
 
-Use code with caution.
+```
 [ Your Pure React Code ]
 │
 ▼  (1. BUILD-TIME: Happens on your computer)
 ┌────────────────────────────────────────────────────────┐
 │ THE REACT COMPILER (babel-plugin-react-compiler)       │
-│ Rewrites your raw JS to inject automated caching logic. │
+│ Rewrites your raw JS to inject automated caching logic.│
 └────────────────────────────────────────────────────────┘
 │
 ▼  (2. THE BUNDLE: Shipped to the user)
@@ -74,6 +74,7 @@ Use code with caution.
 │ REACT 19 RUNTIME (The standard 'react' package)        │
 │ Executes the lightweight cached logic efficiently.     │
 └────────────────────────────────────────────────────────┘
+```
 
 ### Is the React Compiler part of React 19?
 **Conceptually and architecturally, no.** The React Compiler is distributed as an entirely separate package (such as `babel-plugin-react-compiler`). 
