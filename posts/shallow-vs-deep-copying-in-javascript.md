@@ -1,7 +1,7 @@
 ---
 title: "Shallow vs. Deep Copying in JavaScript"
 date: "2026-11-15"
-image: "shallow-vs-deep"
+image: "shallow-vs-deep-copying-in-javascript.png"
 excerpt: "Understand how JavaScript copies objects, why nested data can cause unexpected changes, and when to use shallow or deep copying."
 isFeatured: true
 ---
